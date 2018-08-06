@@ -32,7 +32,7 @@ Please prepare your own documents in the above format. If you want to use this d
 - Specifying some model parameters.
 - Follow the comments and run it.
 - The code should yield the results reported in the paper.
-- I've found that if you use more MCMC iterations, the model will have better performance than reported in the paper.
+- I've found that if you use more MCMC iterations, the model will have better performance than reported in the paper 😂.
 
 # Notes
 
