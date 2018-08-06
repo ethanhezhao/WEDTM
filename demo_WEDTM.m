@@ -11,7 +11,7 @@
 
 
 % Change this to where GBN is
-GBN_folder = '../vae_cf/GBN';
+GBN_folder = '';
 
 addpath(GBN_folder); 
 
