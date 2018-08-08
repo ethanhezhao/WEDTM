@@ -28,8 +28,7 @@ Key features:
 Please prepare your own documents in the above format. If you want to use this dataset, please cite the original papers, which are cited in our paper.
 
 4. Run "demo_WEDTM.m":
-- Specifying where the GBN code is installed.
-- Specifying some model parameters.
+- Specify where the GBN code is installed and some model parameters.
 - Follow the comments and run it.
 - The code should yield the results reported in the paper.
 - I've found that if you use more MCMC iterations, the model will have better performance than reported in the paper 😂.
@@ -40,4 +39,4 @@ Please prepare your own documents in the above format. If you want to use this d
 
 2. For the Polya-Gamma sampler (PolyaGamRnd_Gam.m), I used [Mingyuan Zhou](https://mingyuanzhou.github.io)'s implementation, described in  ["Parsimonious Bayesian deep networks"](https://arxiv.org/abs/1805.08719). If you want to use the sampler, please cite the paper. 
 
-3. For the sampling of W, I referred to the implementation of [DPFA](https://github.com/zhegan27/dpfa_icml2015) by [Gan Zhe](https://zhegan27.github.io).
+3. For the sampling of W, I partly referred to the implementation of [DPFA](https://github.com/zhegan27/dpfa_icml2015) by [Gan Zhe](https://zhegan27.github.io).
