@@ -10,9 +10,9 @@ Key features:
 
 # Run WEDTM
 
-0. The code has been tested in MacOS and Linux (Ubuntu). 
+0. The code has been tested in MacOS and Linux (Ubuntu). To run it on Windows, you need to re-compile ```GNBP_mex_collapsed_deep_WEDTM.c``` with MEX and a C++ complier.
 
-1. Requirements: Matlab 2016b (or later) with MEX working properly and the code of [GBN](https://github.com/mingyuanzhou/GBN).
+1. Requirements: Matlab 2016b (or later) and the code of [GBN](https://github.com/mingyuanzhou/GBN).
 
 2. Make sure GBN runs properly on your machine. 
 
@@ -27,7 +27,7 @@ Key features:
 
 Please prepare your own documents in the above format. If you want to use this dataset, please cite the original papers, which are cited in our paper.
 
-4. Run "demo_WEDTM.m":
+4. Run ```demo_WEDTM.m```:
 - Specify where the GBN code is installed and some model parameters.
 - Follow the comments and run it.
 - The code should yield the results reported in the paper.
@@ -37,6 +37,6 @@ Please prepare your own documents in the above format. If you want to use this d
 
 1. As WEDTM adapts GBN for a part of its model structure, the code heavily relies on GBN and basically follows the code structure of GBN.
 
-2. For the Polya-Gamma sampler (PolyaGamRnd_Gam.m), I used [Mingyuan Zhou](https://mingyuanzhou.github.io)'s implementation, described in  ["Parsimonious Bayesian deep networks"](https://arxiv.org/abs/1805.08719). If you want to use the sampler, please cite the paper. 
+2. For the Polya-Gamma sampler (```PolyaGamRnd_Gam.m```), I used [Mingyuan Zhou](https://mingyuanzhou.github.io)'s implementation, described in  ["Parsimonious Bayesian deep networks"](https://arxiv.org/abs/1805.08719). If you want to use the sampler, please cite the paper. 
 
 3. For the sampling of W, I partly referred to the implementation of [DPFA](https://github.com/zhegan27/dpfa_icml2015) by [Gan Zhe](https://zhegan27.github.io).
