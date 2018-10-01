@@ -56,10 +56,14 @@ dataset = load('data/WS.mat');
 
 % We pre-split the docs into training (80%) and testing (20%), as in the
 % paper
-Para.train_idx = dataset.train_idx;
-Para.test_idx = dataset.test_idx;
 
-Para.Y =  dataset.labels;
+if strcmp(Para.evaluation,'dc')
+
+   Para.train_idx = dataset.train_idx;
+   Para.test_idx = dataset.test_idx;
+
+   Para.Y =  dataset.labels;
+end
 
 trial = 1;
 rng(trial,'twister');
