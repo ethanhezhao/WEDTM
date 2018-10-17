@@ -239,6 +239,14 @@ for Tcurrent = 1:T
     ParaGlobal{Tcurrent}.beta0 = beta0;
     ParaGlobal{Tcurrent}.beta_para = beta_para;
     ParaGlobal{Tcurrent}.ave = ave;
+    
+    % for theta
+    ParaGlobal{Tcurrent}.p_j = p_j;
+    ParaGlobal{Tcurrent}.c_j = c_j;
+    ParaGlobal{Tcurrent}.Xt_to_t1 = Xt_to_t1;
+    
+    
+    
 
     
     for t = 1:Tcurrent+1
